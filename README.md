@@ -1,7 +1,7 @@
 Assignment 1: Grid World
 =========
 
-DO NOT FORK THIS REPO. 
+DO NOT FORK THIS REPO 
 -----
 Clone it and work on it locally and never push commits anywhere public.
 
