@@ -61,7 +61,7 @@ class GridWorld():
                 if c == Ans[i]:
                     print("[UCS] Correct optimal cost: ", c)
                 else:
-                    print("[UCS] Incorrect optimal cost: ", c, ">", Ans[i])
+                    print("[UCS] Incorrect optimal cost: ", c, "!=", Ans[i])
                 self.agent.search("astar")
                 while not self.agent.finished and not self.agent.failed:
                     self.agent.make_step()
@@ -69,7 +69,7 @@ class GridWorld():
                 if c == Ans[i]:
                     print("[AStar] Correct optimal cost: ", c)
                 else:
-                    print("[AStar] Incorrect optimal cost: ", c, ">", Ans[i])
+                    print("[AStar] Incorrect optimal cost: ", c, "!=", Ans[i])
             return        
         else:
             print("--mode only takes 0,1,2.")
