@@ -37,12 +37,12 @@ Apr-12 5pm Pacific Time.
 
 Grading
 -----
-We will have a different set of test cases similar to those in `maps.py` and check if the path your algorithms compute return the right cost values. Of course, we will also run your code and see if your algorithms behave correctly. For instance, if you copy the UCS code to A\*, it will still pass the autograder, but we can easily spot that. 
+We will have a different set of test cases similar to those in `maps.py` and check if the path your algorithms compute return the right cost values. Of course, we will also run your code and see if your algorithms behave correctly. For instance, if you simply copy the UCS code to A\*, it will still pass the autograder because the optimal cost is the same, but we can easily spot that. 
 
 There are four possible scores, as explained in the first lecture.
 
-- Full (15 points): Everything is correct: passing all tests and implementing the right algorithms.
-- Almost (13 points): Minor mistakes that led to failure of some tests. 
+- Full (15 points): Everything is correct, passing all tests and implementing the right algorithms.
+- Almost (13 points): There are minor mistakes that led to failure of some tests. 
 - Half (8 points): Major problems, such as not implementing some of the algorithms, but are in the right direction. 
 - Hello (1 point): Almost no attempt but at least you sent something in. 
 
