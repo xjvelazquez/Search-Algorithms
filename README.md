@@ -1,8 +1,10 @@
 Assignment 1: Grid World
 =========
-DO NOT FORK THIS REPO. Clone it and work on your machine and never push commits anywhere public. 
-==========
-The task is to find an path from the start (bright yellow square) to the goal (dark yellow square). Just by pressing `enter` you will see what that means. In class I briefly explained the meaning of the different colors of the nodes (green is "grass" that gives some high cost, blue is "puddle" that the agent can not step on). Check slides, lecture recording, and read the code to figure things out. 
+
+DO NOT FORK THIS REPO. Clone it and work on it locally and never push commits anywhere public.
+-----
+
+The task is to find paths from the start (yellow square) to the goal (orange square). Once you load it up and press `enter` you will see what that means. In class I briefly explained the meaning of the different colors of the nodes (green is "grass" that gives some high cost, blue is "puddle" that the agent can not step on). Check slides, lecture recording, and read the code to figure things out. 
 
 Implement the following search strategies in `algorithms.py`:
 
@@ -41,5 +43,5 @@ Of course, we will also run your code and see if your algorithms behave correctl
 
 Note
 ------
-- If you encounter difficulty loading things after installing Pygame, this post https://stackoverflow.com/questions/52718921/problems-getting-pygame-to-show-anything-but-a-blank-screen-on-macos-mojave may likely help you. 
+- If you encounter difficulty loading things after installing Pygame, this post https://stackoverflow.com/questions/52718921/problems-getting-pygame-to-show-anything-but-a-blank-screen-on-macos-mojave (in particular, the second answer by "Rafael") may likely help you. 
 - You can click mouse to put down more puddles when search is not running.
