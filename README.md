@@ -1,10 +1,11 @@
 Assignment 1: Grid World
 =========
 
-DO NOT FORK THIS REPO. Clone it and work on it locally and never push commits anywhere public.
+DO NOT FORK THIS REPO. 
 -----
+Clone it and work on it locally and never push commits anywhere public.
 
-The task is to find paths from the start (yellow square) to the goal (orange square). Once you load it up and press `enter` you will see what that means. In class I briefly explained the meaning of the different colors of the nodes (green is "grass" that gives some high cost, blue is "puddle" that the agent can not step on). Check slides, lecture recording, and read the code to figure things out. 
+The task is to find paths from the start (yellow node) to the goal (orange node). Once you load it up and press `enter` you will see what that means. In class I briefly explained the meaning of the different colors of the nodes (green is "grass" that incurs high cost, blue is "puddle" that the agent can not pass through). Check slides, lecture recording, and read the code to figure things out. 
 
 Implement the following search strategies in `algorithms.py`:
 
