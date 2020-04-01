@@ -19,7 +19,11 @@ Make sure that after you find a path with UCS and A\*, the final cost of the pat
 
 The code for DFS is given to make it easy for you to understand the code. (Expect to spend much more time on reading the code in future assignments.) 
 
-You only need to submit the `algorithms.py` file for grading. So if you have changed other files, make sure your implementation works properly with the given `main.py` and `maps.py`, which we will use for grading. 
+Submission
+----
+You only need to submit the `algorithms.py` file on Gradescope for grading. 
+
+If you have changed other files, make sure that your implementation works properly with the given `main.py` and `maps.py`, which we will use for grading. 
 
 Usage
 ----
@@ -27,7 +31,7 @@ First, install the Pygame library, it will be used for all assignments in this c
 
 Simple run `python main.py` and you will see the grid world window. By pressing `enter` you see how DFS finds a path. Pressing 2, 3, or 4 should run BFS, UCS, A\* in a similay way, which you will implement (and right now it does nothing). 
 
-In the `maps.py` file shows a few test case examples. The `Maps` list contains several input maps and the `Ans` stores the corresponding cost of the optimal path from the start to the goal. To load these maps, pass the following options to the `main.py` file. You can do `python main.py -m 1 -l 0`, which loads the first map `Maps[0]`, or `python main.py -m 1 -l 2` loads `Maps[2]`. Of course it will compain if the index is out of range. You can also do `python main.py -m 2` which autogrades the algorithms with respect the correct optimal costs. 
+In the `maps.py` file shows a few test case examples. The `Maps` list contains several input maps and the `Ans` stores the corresponding cost of the optimal path from the start to the goal. To load these maps, pass the following options to the `main.py` file. You can do `python main.py -m 1 -l 0`, which loads the first map `Maps[0]`, or `python main.py -m 1 -l 2` loads `Maps[2]`. Of course it will compain if the index is out of range. You can also do `python main.py -m 2` which autogrades the algorithms with respect to the correct optimal costs. 
 
 The `demo.mov` file shows how the four different search algorithms should roughly behave, in turn. Note that the A\* algorithm shown in the video is very fast and greedy and does not find the optimal path. Your A\* implementation is supposed to use the Manhattan distance, which is a consistent heuristic and will take more steps to find the final path that is guaranteed to be optimal, and it will be faster than UCS. 
 
