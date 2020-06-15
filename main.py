@@ -232,5 +232,6 @@ class Node():
         screen.blit(self.image, self.rect)
 
 if __name__ == '__main__':
+    random.seed(0)
     game = GridWorld()
     game.loop(args.mode)
